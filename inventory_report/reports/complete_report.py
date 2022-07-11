@@ -2,7 +2,7 @@ from inventory_report.reports.simple_report import SimpleReport
 from collections import Counter
 
 
-class CompleteReport(SimpleReport):
+class CompleteReport():
     def generate(products):
         companies = []
         for product in products:
